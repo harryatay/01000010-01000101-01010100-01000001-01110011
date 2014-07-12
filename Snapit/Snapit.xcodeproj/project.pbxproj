@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A02F1AB1959E81A0055BD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A02F1AA1959E81A0055BD7B /* Foundation.framework */; };
+		4A02F1AD1959E81A0055BD7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A02F1AC1959E81A0055BD7B /* CoreGraphics.framework */; };
+		4A02F1AF1959E81A0055BD7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A02F1AE1959E81A0055BD7B /* UIKit.framework */; };
+		4A02F1B51959E81A0055BD7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A02F1B31959E81A0055BD7B /* InfoPlist.strings */; };
+		4A02F1B71959E81A0055BD7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02F1B61959E81A0055BD7B /* main.m */; };
+		4A02F1BB1959E81A0055BD7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02F1BA1959E81A0055BD7B /* AppDelegate.m */; };
+		4A02F1BE1959E81A0055BD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A02F1BC1959E81A0055BD7B /* Main.storyboard */; };
+		4A02F1C11959E81A0055BD7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02F1C01959E81A0055BD7B /* ViewController.m */; };
+		4A02F1C31959E81A0055BD7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A02F1C21959E81A0055BD7B /* Images.xcassets */; };
+		4A02F1CA1959E81A0055BD7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A02F1C91959E81A0055BD7B /* XCTest.framework */; };
+		4A02F1CB1959E81A0055BD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A02F1AA1959E81A0055BD7B /* Foundation.framework */; };
+		4A02F1CC1959E81A0055BD7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A02F1AE1959E81A0055BD7B /* UIKit.framework */; };
+		4A02F1D41959E81A0055BD7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A02F1D21959E81A0055BD7B /* InfoPlist.strings */; };
+		4A02F1D61959E81B0055BD7B /* SnapitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02F1D51959E81B0055BD7B /* SnapitTests.m */; };
+		4A02F1E01959EBB70055BD7B /* vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A02F1DF1959EBB70055BD7B /* vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A02F1CD1959E81A0055BD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A02F19F1959E81A0055BD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A02F1A61959E81A0055BD7B;
+			remoteInfo = Snapit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A02F1A71959E81A0055BD7B /* Snapit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A02F1AA1959E81A0055BD7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A02F1AC1959E81A0055BD7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A02F1AE1959E81A0055BD7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A02F1B21959E81A0055BD7B /* Snapit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snapit-Info.plist"; sourceTree = "<group>"; };
+		4A02F1B41959E81A0055BD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A02F1B61959E81A0055BD7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A02F1B81959E81A0055BD7B /* Snapit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapit-Prefix.pch"; sourceTree = "<group>"; };
+		4A02F1B91959E81A0055BD7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A02F1BA1959E81A0055BD7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A02F1BD1959E81A0055BD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A02F1BF1959E81A0055BD7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A02F1C01959E81A0055BD7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A02F1C21959E81A0055BD7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A02F1C81959E81A0055BD7B /* SnapitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A02F1C91959E81A0055BD7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A02F1D11959E81A0055BD7B /* SnapitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapitTests-Info.plist"; sourceTree = "<group>"; };
+		4A02F1D31959E81A0055BD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A02F1D51959E81B0055BD7B /* SnapitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapitTests.m; sourceTree = "<group>"; };
+		4A02F1DF1959EBB70055BD7B /* vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png"; path = "../../Snapit UICameraShutterButton Images/vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A02F1A41959E81A0055BD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02F1AD1959E81A0055BD7B /* CoreGraphics.framework in Frameworks */,
+				4A02F1AF1959E81A0055BD7B /* UIKit.framework in Frameworks */,
+				4A02F1AB1959E81A0055BD7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A02F1C51959E81A0055BD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02F1CA1959E81A0055BD7B /* XCTest.framework in Frameworks */,
+				4A02F1CC1959E81A0055BD7B /* UIKit.framework in Frameworks */,
+				4A02F1CB1959E81A0055BD7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A02F19E1959E81A0055BD7B = {
+			isa = PBXGroup;
+			children = (
+				4A02F1B01959E81A0055BD7B /* Snapit */,
+				4A02F1CF1959E81A0055BD7B /* SnapitTests */,
+				4A02F1A91959E81A0055BD7B /* Frameworks */,
+				4A02F1A81959E81A0055BD7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A02F1A81959E81A0055BD7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A02F1A71959E81A0055BD7B /* Snapit.app */,
+				4A02F1C81959E81A0055BD7B /* SnapitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A02F1A91959E81A0055BD7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A02F1AA1959E81A0055BD7B /* Foundation.framework */,
+				4A02F1AC1959E81A0055BD7B /* CoreGraphics.framework */,
+				4A02F1AE1959E81A0055BD7B /* UIKit.framework */,
+				4A02F1C91959E81A0055BD7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A02F1B01959E81A0055BD7B /* Snapit */ = {
+			isa = PBXGroup;
+			children = (
+				4A02F1B91959E81A0055BD7B /* AppDelegate.h */,
+				4A02F1BA1959E81A0055BD7B /* AppDelegate.m */,
+				4A02F1BC1959E81A0055BD7B /* Main.storyboard */,
+				4A02F1DF1959EBB70055BD7B /* vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png */,
+				4A02F1BF1959E81A0055BD7B /* ViewController.h */,
+				4A02F1C01959E81A0055BD7B /* ViewController.m */,
+				4A02F1C21959E81A0055BD7B /* Images.xcassets */,
+				4A02F1B11959E81A0055BD7B /* Supporting Files */,
+			);
+			path = Snapit;
+			sourceTree = "<group>";
+		};
+		4A02F1B11959E81A0055BD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A02F1B21959E81A0055BD7B /* Snapit-Info.plist */,
+				4A02F1B31959E81A0055BD7B /* InfoPlist.strings */,
+				4A02F1B61959E81A0055BD7B /* main.m */,
+				4A02F1B81959E81A0055BD7B /* Snapit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A02F1CF1959E81A0055BD7B /* SnapitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A02F1D51959E81B0055BD7B /* SnapitTests.m */,
+				4A02F1D01959E81A0055BD7B /* Supporting Files */,
+			);
+			path = SnapitTests;
+			sourceTree = "<group>";
+		};
+		4A02F1D01959E81A0055BD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A02F1D11959E81A0055BD7B /* SnapitTests-Info.plist */,
+				4A02F1D21959E81A0055BD7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A02F1A61959E81A0055BD7B /* Snapit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A02F1D91959E81B0055BD7B /* Build configuration list for PBXNativeTarget "Snapit" */;
+			buildPhases = (
+				4A02F1A31959E81A0055BD7B /* Sources */,
+				4A02F1A41959E81A0055BD7B /* Frameworks */,
+				4A02F1A51959E81A0055BD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapit;
+			productName = Snapit;
+			productReference = 4A02F1A71959E81A0055BD7B /* Snapit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A02F1C71959E81A0055BD7B /* SnapitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A02F1DC1959E81B0055BD7B /* Build configuration list for PBXNativeTarget "SnapitTests" */;
+			buildPhases = (
+				4A02F1C41959E81A0055BD7B /* Sources */,
+				4A02F1C51959E81A0055BD7B /* Frameworks */,
+				4A02F1C61959E81A0055BD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A02F1CE1959E81A0055BD7B /* PBXTargetDependency */,
+			);
+			name = SnapitTests;
+			productName = SnapitTests;
+			productReference = 4A02F1C81959E81A0055BD7B /* SnapitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A02F19F1959E81A0055BD7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Harry Atay";
+				TargetAttributes = {
+					4A02F1C71959E81A0055BD7B = {
+						TestTargetID = 4A02F1A61959E81A0055BD7B;
+					};
+				};
+			};
+			buildConfigurationList = 4A02F1A21959E81A0055BD7B /* Build configuration list for PBXProject "Snapit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A02F19E1959E81A0055BD7B;
+			productRefGroup = 4A02F1A81959E81A0055BD7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A02F1A61959E81A0055BD7B /* Snapit */,
+				4A02F1C71959E81A0055BD7B /* SnapitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A02F1A51959E81A0055BD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02F1C31959E81A0055BD7B /* Images.xcassets in Resources */,
+				4A02F1E01959EBB70055BD7B /* vg_tech_circle_01_by_xxmissarichanxx-d4g4kzy.png in Resources */,
+				4A02F1B51959E81A0055BD7B /* InfoPlist.strings in Resources */,
+				4A02F1BE1959E81A0055BD7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A02F1C61959E81A0055BD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02F1D41959E81A0055BD7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A02F1A31959E81A0055BD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02F1C11959E81A0055BD7B /* ViewController.m in Sources */,
+				4A02F1BB1959E81A0055BD7B /* AppDelegate.m in Sources */,
+				4A02F1B71959E81A0055BD7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A02F1C41959E81A0055BD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A02F1D61959E81B0055BD7B /* SnapitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A02F1CE1959E81A0055BD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A02F1A61959E81A0055BD7B /* Snapit */;
+			targetProxy = 4A02F1CD1959E81A0055BD7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A02F1B31959E81A0055BD7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A02F1B41959E81A0055BD7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A02F1BC1959E81A0055BD7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A02F1BD1959E81A0055BD7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A02F1D21959E81A0055BD7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A02F1D31959E81A0055BD7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A02F1D71959E81B0055BD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A02F1D81959E81B0055BD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A02F1DA1959E81B0055BD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapit/Snapit-Prefix.pch";
+				INFOPLIST_FILE = "Snapit/Snapit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A02F1DB1959E81B0055BD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapit/Snapit-Prefix.pch";
+				INFOPLIST_FILE = "Snapit/Snapit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A02F1DD1959E81B0055BD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snapit.app/Snapit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapit/Snapit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapitTests/SnapitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4A02F1DE1959E81B0055BD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snapit.app/Snapit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapit/Snapit-Prefix.pch";
+				INFOPLIST_FILE = "SnapitTests/SnapitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A02F1A21959E81A0055BD7B /* Build configuration list for PBXProject "Snapit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A02F1D71959E81B0055BD7B /* Debug */,
+				4A02F1D81959E81B0055BD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A02F1D91959E81B0055BD7B /* Build configuration list for PBXNativeTarget "Snapit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A02F1DA1959E81B0055BD7B /* Debug */,
+				4A02F1DB1959E81B0055BD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A02F1DC1959E81B0055BD7B /* Build configuration list for PBXNativeTarget "SnapitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A02F1DD1959E81B0055BD7B /* Debug */,
+				4A02F1DE1959E81B0055BD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A02F19F1959E81A0055BD7B /* Project object */;
+}

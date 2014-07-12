@@ -79,42 +79,23 @@
     NSString *savePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Test/ig:"];
     [[UIImagePNGRepresentation(screenShot) writeToFile:savePath atomically: YES];
      
-    CGRect rect = CGRectMake(0, 0, 0, 0);
-    NSString *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Test.ig"];
-    NSURL *igImageHookFile = [[NSURL alloc] initWithString:[[NSString alloc] initWithFormat:@"file://%@", jpgPath]];
-    self.dic.UTI = @"com.instagram.photo";
-    self.dic = [self setupControllerWithURL:igImageHookFile usingDelegate:self];
-    self.dic=[UIDocumentInteractionController interactionControllerWithURL:igImageHookFile];
-    [self.dic presentOpenInMenuFromRect: rect inView: self.view animated:YES ];
+     CGRect rect = CGRectMake(0, 0, 0, 0);
+     NSString *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Test.ig"];
+     NSURL *igImageHookFile = [[NSURL alloc] initWithString:[[NSString alloc] initWithFormat:@"file://%@", jpgPath]];
+     self.dic.UTI = @"com.instagram.photo";
+     self.dic = [self setupControllerWithURL:igImageHookFile usingDelegate:self];
+     self.dic=[UIDocumentInteractionController interactionControllerWithURL:igImageHookFile];
+     [self.dic presentOpenInMenuFromRect: rect inView: self.view animated:YES ];
      NSURL *instagramURL = [NSURL URLWithString:@"instagram://media?id=MEDIA_ID"];
-    if ([[UIApplication sharedApplication] canOpenURL:instagramURL])
-    {
-        [self.dic presentOpenInMenuFromRect: rect inView:self.view animated: YES ];
-    }
-    else
-    {
-        NSLog(@"No Instagram Found");
-    }
-    
+     if ([[UIApplication sharedApplication] canOpenURL:instagramURL])
+     {
+         [self.dic presentOpenInMenuFromRect: rect inView:self.view animated: YES ];
+     }
+     else
+     {
+         NSLog(@"No Instagram Found");
+     }
+     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     
 @end

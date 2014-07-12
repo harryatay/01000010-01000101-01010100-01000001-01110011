@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstaPost/ViewController.m"
-            timestampString = "425309871.388335"
+            filePath = "Snapit/ViewController.m"
+            timestampString = "425722365.956391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "-shareInstagram"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-camera"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
