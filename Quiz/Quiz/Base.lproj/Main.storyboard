@@ -175,7 +175,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="resetQuiz:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SFC-gj-Qu1"/>
+                                    <action selector="resetQuiz:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y0X-wk-ox9"/>
                                 </connections>
                             </button>
                             <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="white screen.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="dWk-DH-ocY">
